@@ -1,3 +1,9 @@
+# Dataset
+# Ignore specific ZIP file
+data/raw/train
+data/raw/test
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -122,6 +128,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+myenv
 .env
 .venv
 env/
