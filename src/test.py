@@ -18,7 +18,7 @@ output_dims = len(classes)
 hidden_dims = 64
 
 model = MLP(input_dims, hidden_dims, output_dims).to(device)
-model.load_state_dict(torch.load('./saved_models/best_model.pth'))
+model.load_state_dict(torch.load('outputs/best_model.pth'))
 model.eval()  # Set the model to evaluation mode
 
 # Prepare test data

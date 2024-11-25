@@ -1,0 +1,9 @@
+model_name: "MLP"
+train_data_path: "../data/raw/train"
+val_data_path: "../data/raw/test"
+batch_size: 256
+input_size: 128
+hidden_dims: 64
+learning_rate: 0.001
+epochs: 50
+checkpoint_path: "../experiments/checkpoints/mlp_best.pth"
